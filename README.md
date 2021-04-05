@@ -1,8 +1,8 @@
 # Newsweek
 
-> Project #2 of Microverse where I'll replicate a website making it responsive through different screen sizes
+> Project #3 of Microverse where I'll replicate a website making it responsive through different screen sizes
 
-![screenshot](img/readme_ss.png)
+![screenshot](./screenshop.png)
 
 ## Built With
 
