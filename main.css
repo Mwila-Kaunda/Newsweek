@@ -9,17 +9,34 @@ body{
 .btn-sub {
     background-color: #ffe400;
     border-radius: 25px;
+    padding: 5px;
     border: 0;
+    font-size: 13px;
+    margin: 0 10px;
+    font-weight: 700;
+}
+
+.heavy {
+    font-weight: 700;
+}
+
+.copy {
+    display: inline-block;
+    font-size: 12px;
 }
 
 .item-height {
-    height: 95px;
+    height: 50px;
 }
 
 a {text-decoration: none;}
 
 .font-roboto {
     font-family: 'Roboto Condensed', sans-serif;
+}
+
+.padding-start {
+    margin-left: 12px;
 }
 
 .link-list a {
@@ -34,7 +51,11 @@ a {text-decoration: none;}
     font-size: 14px;
     line-height: 15px;
     text-align: center;
-    padding: 0 12px;
+    padding: 0 12px 0 0;
+}
+
+.c {
+    padding:  0 16px;
 }
 
 .fs-16 {
@@ -68,10 +89,15 @@ a {text-decoration: none;}
 
 }
 
-}
 #nav-2 {
 width: 100%;
 }
 
+.logo {
+    height: 20px;
+}
+
 @media only screen and (min-width: 768px) {}
-@media only screen and (min-width: 1024px) {}
+@media only screen and (min-width: 1024px) {
+    
+}
