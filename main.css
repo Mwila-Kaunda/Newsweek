@@ -1,5 +1,18 @@
+html {
+    overflow: hidden;
+}
+
 body{
     font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+}
+
+header{
+    margin: 0;
+}
+
+.container-xl {
+    padding: 0
 }
 
 .bg-orange {
@@ -12,7 +25,7 @@ body{
     padding: 5px;
     border: 0;
     font-size: 13px;
-    margin: 0 10px;
+    /* margin: 0 10px; */
     font-weight: 700;
 }
 
@@ -39,13 +52,52 @@ a {text-decoration: none;}
     margin-left: 12px;
 }
 
+/* .nav-links{
+    padding: 12px 0;
+} */
+
+.link-list {
+    height: 30px;
+    padding: 18px 0;
+    margin: 0;
+}
+
+.nav-links{
+    position: relative;
+}
+
+.y {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.link-list li {
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 24px;
+    text-align: center;
+    padding: 0 8px;
+}
+
+.link-list a {
+    display: block;
+}
+
+.mark {
+    width: 100%;
+}
+/* 
 .link-list a {
     font-weight: 700;
     font-size: 19px;
     line-height: 24px;
     text-align: center;
     padding: 0 12px;
-}
+    display: inline-block;
+} */
 
 .link-list-footer a {
     font-size: 14px;
@@ -86,7 +138,7 @@ a {text-decoration: none;}
 .inline {
     display: flex;
     justify-content: flex-end;
-
+    width: 100%;
 }
 
 #nav-2 {
@@ -97,7 +149,38 @@ width: 100%;
     height: 20px;
 }
 
-@media only screen and (min-width: 768px) {}
-@media only screen and (min-width: 1024px) {
-    
+.search {
+    width: 60px;
+    border: 0;
+    font-size: 19px;
+}
+
+.searc:focus {
+    border: 0;
+}
+
+.padding-link{
+    margin: 0 12px;
+    line-height: 24px;
+}
+
+@media only screen and (min-width: 768px) {
+    .copy {
+        margin-bottom: 12px;
+        line-height: 12px;
+    }
+
+    .btn-sub{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+@media only screen and (min-width: 991px) {
+    .item-height {
+        height: 95px;
+    }
+
+    .logo {
+        height: 60px;
+    }
 }
