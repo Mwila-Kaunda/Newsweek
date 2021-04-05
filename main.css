@@ -49,5 +49,29 @@ a {text-decoration: none;}
     fill: #f72210;
 }
 
+.triangle {
+      width: 0;
+      height: 0;
+      border-top: 13px solid #f72210;
+      border-left: 13px solid transparent;
+}
+
+.rectangle {
+      width: 65px;
+      height: 13px;
+      background: #f72210;
+}
+
+.inline {
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+}
+#nav-2 {
+width: 100%;
+}
+
 @media only screen and (min-width: 768px) {}
 @media only screen and (min-width: 1024px) {}
