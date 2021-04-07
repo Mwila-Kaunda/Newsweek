@@ -2,12 +2,60 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+/* .row > * {
+  padding: 0;
+} */
+
+.debate {
+  padding-left: 8px;
+}
+
+.debate div a {
+  color: #000;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.debate span {
+  color: #555;
+  font-size: 14px;
+}
+
+.debate span a {
+  font-weight: bold;
+  color: #555;
+  font-size: 14px;
+}
+
+.pt-35 {
+  padding-top: 35px;
+}
+
 header {
   margin: 0;
 }
 
 .container-xl {
   padding: 0;
+}
+
+.form h4 {
+  line-height: 19px;
+  font-size: 19px;
+  font-weight: bold;
+}
+
+.form button {
+  width: 100%;
+  border: 0;
+  background-color: #f72210;
+  color: #fff;
+  margin-top: 5px;
+  font-weight: bold;
+}
+
+.form input {
+  width: 100%;
 }
 
 .bg-orange {
@@ -25,6 +73,16 @@ header {
 
 .heavy {
   font-weight: 700;
+}
+
+.married p {
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #30303080;
+  font-weight: bold;
+}
+
+.married img {
+  width: 100%;
 }
 
 .copy {
@@ -119,12 +177,8 @@ a {
   width: 236px;
 }
 
-.row {
+header nav {
   margin: 0;
-}
-
-.row>* {
-  padding: 0;
 }
 
 .triangle {
@@ -178,8 +232,6 @@ a {
   padding: 16px 0;
 }
 
-
-
 .top-img-div {
   position: relative;
 }
@@ -188,21 +240,32 @@ a {
   color: #03030366;
   font-size: 16px;
   font-weight: bold;
+  font-family: 'Roboto Condensed', sans-serif;
   padding-bottom: 11px;
 }
 
-/* .card-img {
-  width: 100%;
-  padding: 10px 0;
-} */
+.bg-grey {
+  background-color: #f4f5f5;
+}
+
+.icon {
+  width: 29px;
+  height: 28px;
+  background: url(logo-n1.svg) #f72210 no-repeat center/contain;
+  margin-right: 10px;
+}
 
 .card-title {
   font-weight: bold;
   color: #000;
+  font-size: 24px;
+  font-family: 'Roboto Condensed', sans-serif;
+  margin-top: 0;
 }
 
 .card-text {
   color: #333;
+  font-size: 13px;
 }
 
 .caption {
@@ -215,10 +278,91 @@ a {
 
 .caption span {
   font-weight: bold;
+  font-size: 17px;
   color: #f72210;
 }
 
+.culture-travel .caption {
+  padding: 0 6px;
+  background: #c2d4d7;
+}
+
+.culture-travel .caption span {
+  color: #333;
+}
+
+.more-stories a, .more-stories h4 {
+  color: #000;
+  font-size: 17px;
+  font-weight: bold;
+  margin-top: 0;
+}
+
+.foo-x {
+  margin-right: 15px;
+}
+
+.more-stories p {
+  color: #333;
+  font-size: 15px;
+}
+
+.insight span {
+  color: #3581fa;
+}
+
+.vs-separator {
+  height: 35px;
+  position: relative;
+}
+
+.foo {
+  border-top: 1px solid #666;
+  position: absolute;
+  top: 50%;
+  height: 5px;
+  width: 100%;
+}
+
+.vs-circle {
+  height: 35px;
+  width: 35px;
+  background-color: #000;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.more-img {
+  width: 95px;
+}
+
+/* .order-sm-1 {
+  order: 1;
+}
+
+.order-sm-2 {
+  order: 2;
+}
+
+.order-sm-3 {
+  order: 3;
+} */
+
 @media only screen and (min-width: 768px) {
+  /* .order-sm-1 {
+    order: initial;
+  }
+  .order-sm-2 {
+    order: initial;
+  }
+  .order-sm-3 {
+    order: initial;
+  } */
   .copy {
     margin-bottom: 0;
     line-height: 12px;
