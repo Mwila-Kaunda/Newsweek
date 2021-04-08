@@ -157,16 +157,19 @@ header {
   margin-top: 10px;
 }
 
-.link-list-footer li, .social li {
+.link-list-footer li,
+.social li {
   padding: 0 10px;
   line-height: 15px;
 }
 
-.link-list-footer li:first-of-type, .social li:first-of-type {
+.link-list-footer li:first-of-type,
+.social li:first-of-type {
   padding-left: 0;
 }
 
-.link-list-footer li:last-of-type, .social li:first-of-type {
+.link-list-footer li:last-of-type,
+.social li:first-of-type {
   padding-right: 0;
 }
 
@@ -242,7 +245,7 @@ header nav {
 }
 
 .header-title {
-  color: #807F86;
+  color: #807f86;
   font-size: 16px;
   font-weight: bold;
   font-family: 'Roboto Condensed', sans-serif;
@@ -250,7 +253,7 @@ header nav {
 }
 
 .black-header-title {
-  color: black;
+  color: #000;
   font-size: 16px;
   font-weight: bold;
   font-family: 'Roboto Condensed', sans-serif;
