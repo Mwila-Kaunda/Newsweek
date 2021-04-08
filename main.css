@@ -2,10 +2,6 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-/* .row > * {
-  padding: 0;
-} */
-
 .debate {
   padding-left: 8px;
 }
@@ -60,14 +56,15 @@ header {
   margin: 0;
 }
 
-.container-xl {
-  padding: 0;
-}
-
 .form h4 {
   line-height: 19px;
   font-size: 19px;
   font-weight: bold;
+}
+
+.debate h4 {
+  font-weight: bold;
+  font-size: 17px;
 }
 
 .form button {
@@ -100,13 +97,13 @@ header {
   font-weight: 700;
 }
 
-.married p {
+.sub-rows-3 p {
   font-family: 'Roboto Condensed', sans-serif;
   color: #30303080;
   font-weight: bold;
 }
 
-.married img {
+.sub-rows-3 img {
   width: 100%;
 }
 
@@ -160,24 +157,17 @@ header {
   margin-top: 10px;
 }
 
-.link-list-footer li,
-.social li {
+.link-list-footer li, .social li {
   padding: 0 10px;
   line-height: 15px;
 }
 
-.link-list-footer li:first-of-type,
-.social li:first-of-type {
+.link-list-footer li:first-of-type, .social li:first-of-type {
   padding-left: 0;
 }
 
-.link-list-footer li:last-of-type,
-.social li:first-of-type {
+.link-list-footer li:last-of-type, .social li:first-of-type {
   padding-right: 0;
-}
-
-.c {
-  padding: 0 32px;
 }
 
 .fs-16 {
@@ -252,7 +242,15 @@ header nav {
 }
 
 .header-title {
-  color: #03030366;
+  color: #807F86;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: 'Roboto Condensed', sans-serif;
+  padding-bottom: 11px;
+}
+
+.black-header-title {
+  color: black;
   font-size: 16px;
   font-weight: bold;
   font-family: 'Roboto Condensed', sans-serif;
@@ -306,7 +304,7 @@ header nav {
   color: #333;
 }
 
-.foo-x {
+.mr-15 {
   margin-right: 15px;
 }
 
@@ -320,7 +318,7 @@ header nav {
   position: relative;
 }
 
-.foo {
+.horizontal-rule {
   border-top: 1px solid #666;
   position: absolute;
   top: 50%;
@@ -343,6 +341,14 @@ header nav {
 
 .more-img {
   width: 95px;
+}
+
+.width-100 {
+  width: 100%;
+}
+
+.float-right {
+  float: inline-end;
 }
 
 @media only screen and (min-width: 768px) {

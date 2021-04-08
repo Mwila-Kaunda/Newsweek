@@ -14,6 +14,21 @@
 ​
 [Live Demo Link](https://mwila-kaunda.github.io/Newsweek/)
 ​
+## Getting Started
+
+To get a local copy up and running follow these simple example steps.
+
+### Prerequisites
+
+- You must have git installed
+
+### Install
+
+- Clone the git repository
+
+### Usage
+
+- Open HTML index file from localhost
 ​
 ## Authors
 ​
