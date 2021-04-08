@@ -559,6 +559,11 @@ header nav {
 	z-index: 3;
 }
 
+#nlist {
+	width: 120px;
+	padding-bottom: 5px;
+}
+
 .magazine-span {
 	font-size: 19px;
 	color: #333333;
