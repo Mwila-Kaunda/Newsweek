@@ -363,11 +363,6 @@ header nav {
 	font-family: 'Roboto Condensed', sans-serif;
 }
 
-.card-text {
-	color: #333;
-	font-size: 13px;
-}
-
 .cap-span {
 	font-weight: bold;
 	color: #f72210;
@@ -890,6 +885,6 @@ font-size: 15px;
 	  border-radius: 3px;
 	  border-right: none;
 	  width: 50px;
-	  margin-left: 30px	;
+	  margin-left: 30px;
   }
 }
