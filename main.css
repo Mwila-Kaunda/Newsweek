@@ -344,6 +344,9 @@ header nav {
 
 .more-img {
   width: 95px;
+	height: 95px;
+	object-fit: cover;
+}
 }
 
 .width-100 {
@@ -361,24 +364,9 @@ header nav {
 	font-family: 'Roboto Condensed', sans-serif;
 }
 
-.card-title {
-	font-weight: bold;
-	color: #000;
-	font-size: 20px;
-	font-family: 'Roboto Condensed', sans-serif;
-}
-
 .card-text {
 	color: #333;
 	font-size: 13px;
-}
-
-.caption {
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	padding: 7px 13px;
-	background-color: #FFFFFFE6;
 }
 
 .cap-span {
@@ -389,7 +377,7 @@ header nav {
 /* Sponsored Insight */
 
 .ins-card {
-	width: 97%
+	width: 97%;
 }
 
 .blue-roboto {
@@ -403,7 +391,7 @@ header nav {
 	bottom: 0;
 	left: 0;
 	padding: 8px 15px;
-	background-color: #FFFFFFE6;
+	background-color: #ffffffe6;
 }
 
 .ins-title {
@@ -424,9 +412,11 @@ header nav {
 	object-fit: cover;
 	float: left;
 }
+
 .us-head {
 	margin: 5px 0 0 10px;
 }
+
 /* More Stories */
 
 .stories-card {
@@ -440,12 +430,6 @@ header nav {
 	margin: 0 10px 10px 0;
 }
 
-.more-img {
-	width: 95px;
-	height: 95px;
-	object-fit: cover;
-}
-
 /* My turn */
 
 .my-turn-img {
@@ -453,12 +437,10 @@ header nav {
 	min-height: auto;
 }
 
-.my-turn-span {
-	font-size: 15;
-}
-
 /* Third Milestone */
+
 /* In the Magazine */
+
 .n {
 	height: 29px;
 	width: 25px;
@@ -468,7 +450,7 @@ header nav {
 
 .n-span {
 	font-size: 19px;
-	color:white;
+	color: white;
 	padding: 5px;
 	position: absolute;
 	top: 3px;
@@ -483,7 +465,7 @@ header nav {
 
 .magazine-span {
 	font-size: 19px;
-	color: #333333;
+	color: #333;
 }
 
 .newsweek-img {
@@ -529,6 +511,11 @@ header nav {
 	padding: 10px;
 	border-radius: 3%;
 	border: none;
+	position: absolute;
+	width: 120px;
+	left: 50%;
+	margin-left: -60px;
+	bottom: 10px;
 }
 
 .sub-img1 {
@@ -569,21 +556,12 @@ text-align: center;
 font-size: 15px;
 }
 
-.subs-btn {
-	position: absolute;
-	width: 120px;
-	left: 50%;
-	margin-left: -60px;
-	bottom: 10px;
-}
-
 .sub-headline {
 	font-size: 17px;
 	font-family: 'Roboto Condensed', sans-serif;
 	color: #000;
 	font-weight: 800;
 	text-align: center;
-	font-weight: 800;
 }
 
 /* newsletters */
@@ -632,7 +610,6 @@ font-size: 15px;
 }
 
 /* debate style */
-/* debate style */
 
 .debate-headline {
 	font-size: 17px;
@@ -659,7 +636,6 @@ font-size: 15px;
 .debate-text-div1 {
 	margin-left: 10px;
 	padding: 15px 0 25px 0;
-	height: fit-content;
 	width: 100%;
 }
 
@@ -796,7 +772,6 @@ font-size: 15px;
 		color: #000;
 		font-weight: 800;
 		text-align: left;
-		font-weight: 800;
 	}
 
 	/* newsletters */
@@ -883,7 +858,7 @@ font-size: 15px;
 	}
 
 	.starting-h3 {
-		width: 80%;
+	  width: 80%;
 		text-align: center;
 		font-size: 24px;
 		font-weight: bolder;
@@ -905,17 +880,17 @@ font-size: 15px;
 		color: white;
 		padding: 6px 5px 6px 5px;
 		width: 120px;
-		height: 38px;
-	}
+  	height: 38px;
+  }
 
 	#mail-input {
-		height: 38px;
-		border-top: 1px solid #d3d3d3;
-		border-left: 1px solid #d3d3d3;
-		border-bottom: 1px solid #d3d3d3;
-		border-radius: 3px;
-		border-right: none;
-		width: 50px;
-		margin-left: 30px;
-	}
+	  height: 38px;
+	  border-top: 1px solid #d3d3d3;
+	  border-left: 1px solid #d3d3d3;
+	  border-bottom: 1px solid #d3d3d3;
+	  border-radius: 3px;
+	  border-right: none;
+	  width: 50px;
+	  margin-left: 30px	;
+  }
 }
