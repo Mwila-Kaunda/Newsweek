@@ -546,12 +546,17 @@ header nav {
 	height: 29px;
 	width: 25px;
 	margin-left: 10px;
+	position: relative;
 }
 
 .n-span {
 	font-size: 19px;
 	color:white;
 	padding: 5px;
+	position: absolute;
+	top: 3px;
+	left: 3px;
+	z-index: 3;
 }
 
 .magazine-span {
@@ -704,6 +709,78 @@ font-size: 15px;
 	width: 45%;
 }
 
+/* debate style */
+
+.debate-headline {
+	font-size: 17px;
+	font-family: 'Roboto Condensed', sans-serif;
+	color: #000;
+	font-weight: bold;
+}
+
+.debate-p {
+	font-size: 14px;
+	font-weight: bold;
+	font-family: 'Roboto Condensed', sans-serif;
+	color: #333;
+}
+
+.debate-absolute {
+	position: relative;
+	width: 32px;
+	height: 32px;
+	border-radius: 50%;
+	background-color: black;
+}
+
+.debate-text-div1 {
+	margin-left: 10px;
+	padding: 15px 0 25px 0;
+	height: fit-content;
+	width: 100%;
+}
+
+.debate-center {
+	position: absolute;
+	color: whitesmoke;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 32px;
+	font-family: 'Roboto Condensed', sans-serif;
+	margin-left: 8px;
+}
+
+.debate-container {
+	position: relative;
+	width: 100%;
+	margin-left: 30px;
+}
+
+.debate-img {
+	width: 63px;
+	height: 63px;
+	margin-top: 10px;
+}
+
+.debate-circle {
+	position: absolute;
+	top: 40%;
+	left: 35%;
+}
+
+#deb1 {
+	border-top: 3px solid #d3d3d3;
+	border-bottom: 1px solid #d3d3d3;
+	width: 88%;
+}
+
+#deb2 {
+	border-bottom: 3px solid #d3d3d3;
+	border-top: 1px solid #d3d3d3;
+	margin-top: 2px;
+	width: 88%;
+	padding-top: 10px;
+}
 
 @media only screen and (min-width: 768px) {
   .copy {
@@ -728,7 +805,7 @@ font-size: 15px;
     margin: 0;
   }
 
-  .last-wrapper {
+	.last-wrapper {
 		max-width: 1310px;
 	}
 
