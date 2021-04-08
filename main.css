@@ -2,12 +2,82 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.debate {
+  padding-left: 8px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.link-list a {
+  display: block;
+}
+
+.link-list-footer a {
+  font-size: 14px;
+  line-height: 15px;
+}
+
+.more-stories a,
+.more-stories h4 {
+  color: #000;
+  font-size: 17px;
+  font-weight: bold;
+  margin-top: 0;
+}
+
+.debate div a {
+  color: #000;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.debate span {
+  color: #555;
+  font-size: 14px;
+}
+
+.insight span {
+  color: #3581fa;
+}
+
+.debate span a {
+  font-weight: bold;
+  color: #555;
+  font-size: 14px;
+}
+
+.pt-35 {
+  padding-top: 35px;
+}
+
 header {
   margin: 0;
 }
 
-.container-xl {
-  padding: 0;
+.form h4 {
+  line-height: 19px;
+  font-size: 19px;
+  font-weight: bold;
+}
+
+.debate h4 {
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.form button {
+  width: 100%;
+  border: 0;
+  background-color: #f72210;
+  color: #fff;
+  margin-top: 5px;
+  font-weight: bold;
+}
+
+.form input {
+  width: 100%;
 }
 
 .bg-orange {
@@ -27,6 +97,16 @@ header {
   font-weight: 700;
 }
 
+.sub-rows-3 p {
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #30303080;
+  font-weight: bold;
+}
+
+.sub-rows-3 img {
+  width: 100%;
+}
+
 .copy {
   display: inline-block;
   font-size: 12px;
@@ -34,10 +114,6 @@ header {
 
 .item-height {
   height: 50px;
-}
-
-a {
-  text-decoration: none;
 }
 
 .font-roboto {
@@ -73,10 +149,6 @@ a {
   text-align: center;
 }
 
-.link-list a {
-  display: block;
-}
-
 .mark {
   width: 100%;
 }
@@ -85,26 +157,20 @@ a {
   margin-top: 10px;
 }
 
-.link-list-footer a {
-  font-size: 14px;
-  line-height: 15px;
-}
-
-.link-list-footer li, .social li {
+.link-list-footer li,
+.social li {
   padding: 0 10px;
   line-height: 15px;
 }
 
-.link-list-footer li:first-of-type, .social li:first-of-type {
+.link-list-footer li:first-of-type,
+.social li:first-of-type {
   padding-left: 0;
 }
 
-.link-list-footer li:last-of-type, .social li:first-of-type {
+.link-list-footer li:last-of-type,
+.social li:first-of-type {
   padding-right: 0;
-}
-
-.c {
-  padding: 0 32px;
 }
 
 .fs-16 {
@@ -119,12 +185,8 @@ a {
   width: 236px;
 }
 
-.row {
+header nav {
   margin: 0;
-}
-
-.row>* {
-  padding: 0;
 }
 
 .triangle {
@@ -178,31 +240,48 @@ a {
   padding: 16px 0;
 }
 
-
-
 .top-img-div {
   position: relative;
 }
 
 .header-title {
-  color: #03030366;
+  color: #807f86;
   font-size: 16px;
   font-weight: bold;
+  font-family: 'Roboto Condensed', sans-serif;
   padding-bottom: 11px;
 }
 
-/* .card-img {
-  width: 100%;
-  padding: 10px 0;
-} */
+.black-header-title {
+  color: #000;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: 'Roboto Condensed', sans-serif;
+  padding-bottom: 11px;
+}
+
+.bg-grey {
+  background-color: #f4f5f5;
+}
+
+.icon {
+  width: 29px;
+  height: 28px;
+  background: url(logo-n1.svg) #f72210 no-repeat center/contain;
+  margin-right: 10px;
+}
 
 .card-title {
   font-weight: bold;
   color: #000;
+  font-size: 24px;
+  font-family: 'Roboto Condensed', sans-serif;
+  margin-top: 0;
 }
 
 .card-text {
   color: #333;
+  font-size: 13px;
 }
 
 .caption {
@@ -210,12 +289,69 @@ a {
   bottom: 0;
   left: 0;
   padding: 8px 15px;
-  background-color: #FFFFFFE6;
+  background-color: #ffffffe6;
 }
 
 .caption span {
   font-weight: bold;
+  font-size: 17px;
   color: #f72210;
+}
+
+.culture-travel .caption {
+  padding: 0 6px;
+  background: #c2d4d7;
+}
+
+.culture-travel .caption span {
+  color: #333;
+}
+
+.mr-15 {
+  margin-right: 15px;
+}
+
+.more-stories p {
+  color: #333;
+  font-size: 15px;
+}
+
+.vs-separator {
+  height: 35px;
+  position: relative;
+}
+
+.horizontal-rule {
+  border-top: 1px solid #666;
+  position: absolute;
+  top: 50%;
+  height: 5px;
+  width: 100%;
+}
+
+.vs-circle {
+  height: 35px;
+  width: 35px;
+  background-color: #000;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.more-img {
+  width: 95px;
+}
+
+.width-100 {
+  width: 100%;
+}
+
+.float-right {
+  float: inline-end;
 }
 
 @media only screen and (min-width: 768px) {
@@ -223,6 +359,7 @@ a {
     margin-bottom: 0;
     line-height: 12px;
   }
+
   .btn-sub {
     background-color: #ffe400;
     border-radius: 25px;
@@ -231,9 +368,11 @@ a {
     font-size: 18px;
     font-weight: 700;
   }
+
   .border-end-sm {
     border-right: 1px solid #666;
   }
+
   .social {
     margin: 0;
   }
@@ -243,12 +382,15 @@ a {
   .item-height {
     height: 95px;
   }
+
   .logo {
     height: 60px;
   }
+
   .border-end-sm {
     border-right: 1px solid #666;
   }
+
   .social {
     margin: 0;
   }
