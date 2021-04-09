@@ -430,13 +430,6 @@ header nav {
   background-color: black;
 }
 
-.debate-text-div1 {
-  margin-left: 10px;
-  padding: 15px 0 25px 0;
-  height: fit-content;
-  width: 100%;
-}
-
 .debate-center {
   position: absolute;
   color: whitesmoke;
@@ -480,7 +473,7 @@ header nav {
 }
 
 .ins-card {
-  width: 97%
+  width: 97%;
 }
 
 .blue-roboto {
@@ -543,7 +536,7 @@ header nav {
 }
 
 .my-turn-span {
-  font-size: 15;
+  font-size: 15px;
 }
 
 .magazine-span {
@@ -587,15 +580,6 @@ header nav {
   background-color: #f4f5f7;
 }
 
-.subs-btn {
-  font-size: 17px;
-  line-height: 17px;
-  color: white;
-  padding: 10px;
-  border-radius: 3%;
-  border: none;
-}
-
 .sub-img1 {
   position: absolute;
   top: 24px;
@@ -636,14 +620,6 @@ header nav {
 .sub-txt {
   text-align: center;
   font-size: 15px;
-}
-
-.subs-btn {
-  position: absolute;
-  width: 120px;
-  left: 50%;
-  margin-left: -60px;
-  bottom: 10px;
 }
 
 .sub-headline {
