@@ -395,33 +395,6 @@ header nav {
   font-family: 'Roboto Condensed', sans-serif;
 }
 
-.header-title {
-  color: #03030366;
-  font-size: 16px;
-  font-weight: bold;
-  padding-bottom: 11px;
-}
-
-.card-title {
-  font-weight: bold;
-  color: #000;
-  font-size: 20px;
-  font-family: 'Roboto Condensed', sans-serif;
-}
-
-.card-text {
-  color: #333;
-  font-size: 13px;
-}
-
-.caption {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  padding: 7px 13px;
-  background-color: #FFFFFFE6;
-}
-
 .cap-span {
   font-weight: bold;
   color: #f72210;
@@ -521,7 +494,7 @@ header nav {
   bottom: 0;
   left: 0;
   padding: 8px 15px;
-  background-color: #FFFFFFE6;
+  background-color: #ffffffe6;
 }
 
 .ins-title {
