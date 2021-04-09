@@ -23,6 +23,23 @@ a {
   line-height: 15px;
 }
 
+.hover-none:hover {
+  color: #f72210;
+}
+
+.hover-o:hover {
+  text-decoration: underline #f72210;
+}
+
+.m-article {
+  align-self: flex-end;
+  margin-top: 16px;
+}
+
+.t-container {
+  display: table;
+}
+
 .more-stories a,
 .more-stories h4 {
   color: #000;
@@ -571,8 +588,6 @@ header nav {
   font-weight: bold;
 }
 
-/* Subscription */
-
 .sub-card {
   height: 390px;
   width: auto;
@@ -701,9 +716,27 @@ header nav {
   padding-top: 16px;
 }
 
+.sub-btn {
+  border-radius: 3px;
+  padding: 10px 10px 10px 12px;
+  font: bold 18px/18px "Roboto Condensed", sans-serif;
+}
+
+.mb-md-40 {
+  margin-bottom: 40px;
+}
+
 @media only screen and (min-width: 768px) {
+  .border-md {
+    border: 1px solid #ccc;
+  }
+
+  .mb-md-40 {
+    margin-bottom: 0;
+  }
+
   .text-md-left {
-    text-align: left;
+    text-align: left !important;
   }
 
   .bg-img {
@@ -738,6 +771,10 @@ header nav {
 }
 
 @media only screen and (min-width: 992px) {
+  .sign-up {
+    text-align: left !important;
+  }
+
   .item-height {
     height: 95px;
   }

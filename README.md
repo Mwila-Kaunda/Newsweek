@@ -1,6 +1,6 @@
 # Newsweek
 ​
-> Project #3 of the Microverse program, milestone 3. I'll replicate the newsweek website and ensure that it responds resonsively on devices with different viewports.
+> Project #3 of the Microverse program, milestone 3. We replicate the newsweek website and ensure that it responds resonsively on devices with different viewports.
 ​
 ![screenshot](https://user-images.githubusercontent.com/65791349/113627464-dab29f00-9663-11eb-969b-54b79155bed5.png)
 ​
@@ -26,11 +26,11 @@ To get a local copy up and running follow these simple example steps.
 
 - Clone the git repository
 
-> git clone https://github.com/Mwila-Kaunda/Newsweek.git
+> run git clone https://github.com/Mwila-Kaunda/Newsweek.git in your terminal
 
 ### Usage
 
-- Open HTML index file from localhost
+- Find the HTML index file and open it from localhost or directly from your browser
 ​
 ## Authors
 ​
